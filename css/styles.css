@@ -1,0 +1,116 @@
+/* 
+== general formats ==
+ */
+html {
+  font: 1.2em Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+* {box-sizing: border-box;}
+
+h1, h2, h3, footer {
+	margin-left: .5em;
+	color: #040;
+}
+
+p {
+	margin: 0 0 1.5em 1.5em;
+}
+
+
+/*
+==  header formatting ==
+*/
+.site-name {
+  display: inline-block;
+  font-size: 3em;
+	color: rgb(4, 80, 4);
+}
+
+.identity {
+	float: right;
+	margin-right: 50px;
+	font-variant-caps: all-small-caps;
+	color: rgb(4, 80, 4);
+}
+
+#name {
+	font-size: 2em;
+}
+
+.rule {
+	width: 100%;
+	display: inline-flex;
+}
+
+
+/*
+== menu ==
+*/
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+ul.menu li a {
+		display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    background-color: #111;
+}
+
+ul.menu li {float: left;}
+
+@media screen and (max-width: 630px){
+	ul.menu li {float: none;}
+}
+
+
+/*
+== work section formattings ==
+*/
+.flex-img {
+	width: 100%;
+}
+
+.work-img {
+	 width: 100%;
+	 flex: 1;
+}
+
+.work {
+  width: 98%;
+  height: 240px;
+  margin: 20px auto;
+ 	display: flex;
+ 	height: auto;
+ 	color: #040;
+}
+
+.project {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.project:last-child {
+  margin-right: 0;
+}
+
+figcaption {
+	font-variant-caps: all-small-caps;
+	font-size: 1.5em;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 800px){
+	.work{flex-direction: column;}
+}

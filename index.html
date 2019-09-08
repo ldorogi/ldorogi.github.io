@@ -1,2 +1,63 @@
-<h1> Hello World </h1>
-<h3>Nice to see you here</h3>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Portfolio Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="site-name">Portfolio Site</h1>
+    <section class="identity">
+      <div id="name">László Dorogi</div>
+      <p>Front-end web developer</p>
+    </section>
+    <hr class="rule">
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="work">
+      <div class="project">
+          <figure>
+            <picture>
+              <source srcset="images/freecodecamp-projects_medium.jpg" media="(min-width: 280px)">
+              <img src="images/freecodecamp-projects_small.jpg" alt="freeCodeCamp learning units" class="work-img">
+            </picture>
+            <figcaption><a href="freeCodeCampProjects.html">freeCodeCamp projects</a></figcaption>
+          </figure>
+        </div>
+    <div class="project">
+      <figure>
+        <picture>
+          <source media="(min-width: 280px)" srcset="images/pixel_art_maker_medium.jpg">
+          <img src="images/pixel_art_maker_small.jpg" alt="Pixel art maker screenshot" class="work-img">
+        </picture>
+        <figcaption><a href="https://github.com/ldorogi/pixel-art-maker">Pixel Art Maker</a></figcaption>
+      </figure>
+    </div>
+    <div class="project">
+      <figure>
+        <picture>
+          <source media="(min-width: 280px)" srcset="images/React-Map_medium.jpg">
+          <img src="images/React-Map_small.jpg" alt="HTML code on a screen" class="work-img">
+        </picture>
+        <figcaption><a href="https://github.com/ldorogi/Neighborhood-Map-Budapest">React based Map Application</a></figcaption>
+      </figure>
+    </div>
+    <br>
+  </section>
+  <footer>
+    <p>Copyrights @2019 László Dorogi</p>
+  </footer>
+</body>
+
+</html>

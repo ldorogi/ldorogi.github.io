@@ -110,6 +110,13 @@ figcaption {
   text-align: center;
 }
 
+.project-header {
+  display: flex;
+}
+
+ul.user-stories li {
+  margin-bottom: 10px;
+}
 
 @media screen and (max-width: 800px){
 	.work{flex-direction: column;}

@@ -1,5 +1,8 @@
 body {
   text-align: center;
+  font-family: 'Recursive', serif;
+  font-size: 1.5em;
+  background-color: rgb(99, 116, 70);
 }
 
 #image {
@@ -10,4 +13,8 @@ body {
 
 p {
   display: block;
+}
+
+#tribute-info {
+  text-align: start;
 }
